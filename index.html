@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FocusTimer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>FocusTimer</h1>
+  <p>PsychWard Products©️</p>
+  
+  <div id="timer">25:00</div>
+  <div>
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <div id="task-input">
+    <label for="taskInput">Current Task:</label><br>
+    <input type="text" id="taskInput" placeholder="Enter your task">
+  </div>
+
+  <p id="currentTask"></p>
+
+  <div id="timer-settings">
+  <label for="timeSelect">Select Timer Duration:</label><br>
+  <select id="timeSelect">
+    <option value="1500">25 Minutes</option>
+    <option value="1800">30 Minutes</option>
+    <option value="3600">1 Hour</option>
+  </select>
+</div>
+
+  <div class="quote" id="quote">"Focus on being productive instead of busy."</div>
+
+  <div id="subscribe">
+    Want more control? <a href="https://yourpaymentlink.com" target="_blank" rel="noopener noreferrer">Subscribe for Pro</a>
+
+  </div>
+
+  <script src="timer.js" defer></script>
+</body>
+</html>

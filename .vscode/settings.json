@@ -1,0 +1,4 @@
+{
+    "editor.linkedEditing": true,
+    "vue.trace.server": "messages"
+}

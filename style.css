@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00ffc8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Neon title and subtitle */
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  text-shadow: 0 0 10px #00ffc8, 0 0 20px #00ffc8;
+}
+
+p {
+  color: #999;
+  margin-bottom: 1.5em;
+}
+
+/* Timer display */
+#timer {
+  font-size: 5em;
+  margin: 20px;
+  color: #00fff7;
+  text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+}
+
+/* Buttons */
+button {
+  background-color: #1f1f1f;
+  color: #00ffc8;
+  border: 2px solid #00ffc8;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 0 0 5px #00ffc8;
+}
+
+button:hover {
+  background-color: #00ffc8;
+  color: #0f0f0f;
+  box-shadow: 0 0 10px #00ffc8, 0 0 20px #00ffc8;
+}
+
+/* Task input */
+#task-input {
+  margin-top: 20px;
+}
+
+#task-input input {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 2px solid #00ffc8;
+  background-color: #1f1f1f;
+  color: #00ffc8;
+  width: 250px;
+  text-shadow: 0 0 3px #00ffc8;
+}
+
+/* Current Task Display */
+#currentTask {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #00ffc8;
+  text-shadow: 0 0 5px #00ffc8;
+}
+
+/* Timer Length Selector (for changing time) */
+#timer-settings {
+  margin-top: 15px;
+  color: #ccc;
+}
+
+#timer-settings select {
+  background-color: #1f1f1f;
+  border: 2px solid #00ffc8;
+  color: #00ffc8;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+/* Quote Section */
+.quote {
+  margin-top: 30px;
+  font-style: italic;
+  color: #ff8cff;
+  text-shadow: 0 0 5px #ff8cff;
+}
+
+/* Subscription Link */
+#subscribe {
+  margin-top: 30px;
+  font-size: 1em;
+  color: #888;
+}
+
+#subscribe a {
+  color: #ff5cff;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 8px #ff5cff;
+}
+
+#subscribe a:hover {
+  color: #fff;
+  text-shadow: 0 0 12px #ff5cff, 0 0 20px #ff5cff;
+}
