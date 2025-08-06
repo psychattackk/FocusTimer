@@ -2,4 +2,4 @@
 
 https://psychattackk.github.io/FocusTimer/
 
-## PsychAttackk founder of PsychWard Productions
+## PsychAttackk founder of Psych Products Inc. 
